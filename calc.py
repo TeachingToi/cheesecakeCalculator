@@ -8,3 +8,14 @@ specialBought = 2
 total=numberBought* cheeseCake+ specialBought* special
 print 'You ordered 5 cheesecakes and that is going to be $90.'
 print 'You ordered ' + str(numberBought+specialBought)+ ' cheesecakes and that is going to be $'+str( total)+'.'
+
+# Creating a cheescake dictionary
+cheeseCakes = {}
+cheeseCakes["cherry"] = 20
+cheeseCakes["pb"] = 22
+# print cheeseCakes
+print cheeseCakes["cherry"]
+
+
+
+
